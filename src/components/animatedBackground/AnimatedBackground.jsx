@@ -13,10 +13,7 @@ const AnimatedBackground = () => {
   const { View } = useLottie(options);
 
   return (
-    <div
-      className="absolute z-[-1]"
-      style={{  }} // Adjust opacity here
-    >
+    <div className="absolute inset-0 w-full h-screen z-[-1]">
       {View}
     </div>
   );
